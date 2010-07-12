@@ -20,7 +20,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_JAVA_LIBRARIES := android.test.runner
-LOCAL_PACKAGE_NAME := PhoneAppTests
+LOCAL_PACKAGE_NAME := CytownPhoneAppTests
 LOCAL_CERTIFICATE := platform
 
 LOCAL_MODULE_TAGS := tests
